@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 # зчитування зображення без змін
 img = cv2.imread('image.jpg', cv2.IMREAD_UNCHANGED)
 
-print(img)  # вивід масиву пікселів
 
 # розміри: (висота, ширина, канали)
 print("Розміри зображення:", img.shape)
